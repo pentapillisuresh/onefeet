@@ -1,0 +1,1 @@
+import './globals.css';import 'leaflet/dist/leaflet.css';import {AppProvider} from '../components/State';export const metadata={title:'1Feet.in | Explore ventures in Vizag',description:'Interactive map-first real estate client demonstration'};export default function RootLayout({children}){return <html lang="en"><body><AppProvider>{children}</AppProvider></body></html>}
